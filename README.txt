@@ -6,3 +6,4 @@ Red color is filled on extra height of new image.
 This new image is renderd on Canvas1 with it's context named context1.
 Then Canvas1 stream is passed to remote peer using webRTC.
 
+In this there is a button to test throughput. It will test actual bandwidth a data channel can be able to send between peer.
