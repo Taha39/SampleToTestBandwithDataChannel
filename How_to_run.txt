@@ -1,0 +1,12 @@
+Install node js first. Then:
+
+from this folder run command prompt then in command prompt run "node index.js"
+Open chrome browser and run //localhost:8080
+Provide room name.
+From other chrome brower also do the same.
+
+
+
+Troubleshootings in case we did not see the video in browser in different pc, please launch the command either of below as chrome keep on chnaging the settings:
+1. "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/chromedev" --disable-web-security
+2. "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/chromedev" --unsafely-treat-insecure-origin-as-secure="http://IPADDRESS:8080/"
